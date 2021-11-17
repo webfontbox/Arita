@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <title>나눔스퀘어라운드 웹폰트</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="font.min.css">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container py-5 mx-auto">
+    <div class="mb-5">
+        <div class="flex items-center mb-2">
+          <a href="https://github.com/Hansanghyeon/arita">
+            <div class="w-10 h-10 mr-1.5">
+              <?xml version="1.0"?>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                <path
+                  d="M 10 2 C 8.346 2 7 3.346 7 5 L 7 41 C 7 42.654 8.346 44 10 44 L 11 44 L 11 42 L 10 42 C 9.449 42 9 41.552 9 41 L 9 36 L 41 36 L 41 41 C 41 41.552 40.552 42 40 42 L 25 42 L 25 44 L 40 44 C 41.654 44 43 42.654 43 41 L 43 5 C 43 3.346 41.654 2 40 2 L 10 2 z M 14 8 L 18 8 L 18 12 L 14 12 L 14 8 z M 14 17 L 18 17 L 18 21 L 14 21 L 14 17 z M 14 26 L 18 26 L 18 30 L 14 30 L 14 26 z M 13 38 L 13 48.625 L 18 46.125 L 23 48.625 L 23 38 L 13 38 z" />
+              </svg>
+            </div>
+          </a>
+          <a href="https://github.com/Hansanghyeon" class="github">
+            <div class="w-10 h-10">
+              <svg enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z" />
+              </svg>
+            </div>
+          </a>
+        </div>
+        <div class="name">
+          <a href="https://github.com/hansanghyeon" class="name">@Hansanghyeon</a>
+        </div>
+    </div>
+    <div class="mb-4">
+      <div class="mb-1">Light 300</div>
+      <p class="text-3xl font-light">나랏말싸미 듕귁에 달아 문자와로 서르 사맛디 아니할쎄</p>
+    </div>
+    <div class="mb-4">
+      <div class="mb-1">Regular 400</div>
+      <p class="text-3xl font-normal">나랏말싸미 듕귁에 달아 문자와로 서르 사맛디 아니할쎄</p>
+    </div>
+    <div class="mb-4">
+      <div class="mb-1">Blod 700</div>
+      <p class="text-3xl font-bold">나랏말싸미 듕귁에 달아 문자와로 서르 사맛디 아니할쎄</p>
+    </div>
+    <div class="mb-4">
+      <div class="mb-1">Extra Bold 800</div>
+      <p class="text-3xl font-bold">나랏말싸미 듕귁에 달아 문자와로 서르 사맛디 아니할쎄</p>
+    </div>
+  </div>
+</body>
+
+<style>
+  body {
+    min-height: 100vh;
+    display: grid;
+    align-content: center;
+    color: #24292E;
+  }
+
+  p {
+    font-family: 'Arita';
+  }
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  svg path {
+    fill: #212121;
+    transition: fill 0.3s ease-in-out;
+  }
+
+  .name {
+    color: #FDBD3A;
+    font-weight: 500;
+  }
+
+  svg:hover path {
+    fill: #FDBD3A;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      color: #e8eaed;
+      background-color: #22272E;
+    }
+
+    svg path {
+      fill: #e8eaed;
+    }
+
+    .name {
+      color: #49D294;
+    }
+
+    svg:hover path {
+      fill: #49D294;
+    }
+  }
+</style>
+</html>
