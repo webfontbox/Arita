@@ -7,15 +7,15 @@ https://www.apgroup.com/int/ko/about-us/visual-identity/arita-typeface/arita-typ
 ### 사용방법
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://hansanghyeon.github.io/Arita/font.css">
-<link rel="stylesheet" type="text/css" href="https://hansanghyeon.github.io/Arita/font.min.css">
+<link rel="stylesheet" type="text/css" href="https://webfontbox.github.io/Arita/font.css">
+<link rel="stylesheet" type="text/css" href="https://webfontbox.github.io/Arita/font.min.css">
 ```
 
 import 방식
 
 ```css
-@import url('https://hansanghyeon.github.io/Arita/font.css');
-@import url('https://hansanghyeon.github.io/Arita/font.min.css');
+@import url('https://webfontbox.github.io/Arita/font.css');
+@import url('https://webfontbox.github.io/Arita/font.min.css');
 ```
 
 ## 아리따 글꼴
